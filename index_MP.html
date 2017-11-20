@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Microsoft Paint - Browser Version</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!--Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+  <!-- Local CSS file-->
+  <link rel="stylesheet" href="CSS_MP.css">
+
+</head>
+<body>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-2' id='menu'>
+        <button class='btn btn-primary' id='clearButton'>Clear</button>
+        <p id='changeColorText'>Change Color:</p>
+        <input id='changeColorInput' type='text' name='Change_Color'>
+        <button class='btn btn-primary' id='changeColorButton'>Change Color</button>
+      </div>
+      <div class='col-10'>
+        <div id='canvas'>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <!--Local JavaScript file-->
+  <script src="JS_MP.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  margin: 20px;
+  background-color: #eee;
+}
+
+.container {
+  border-color: #777;
+  padding: 25px 50px 25px 50px;
+  text-align: center;
+  border-style: double;
+  border-radius: 15px;
+  border-width: 5px;
+  font-family: 'Cabin', sans-serif;
+  background-color: #ddd;
+}
+
+#menu {
+  border: 1px solid #444;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+#clearButton {
+  margin: auto;
+}
+
+#canvas {
+  border: 1px solid #444;
+  height: 602px;
+  width: 802px;
+  font-size: 0px;
+  margin: auto;
+}
+
+.blockDiv {
+  height: 5px;
+  width: 5px;
+  border: none;
+  display: inline-block;
+  background-color: #fff;
+}
+
+#changeColorText {
+  margin: 20px 0px 0px 0px;
+}
+
+#changeColorInput {
+  margin: 10px 0px;
+  width: 90%;
+}
